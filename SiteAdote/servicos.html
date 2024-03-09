@@ -1,38 +1,183 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f4f4f6;
+            margin: 0;
+        }
+
+        header {
+            text-align: center;
+            background-color: #333;
+            color: #fff;
+            padding: 30px;
+        }
+
+        .serv-card {
+            background-color: #fff;
+            border: 3px solid #ddd;
+            border-radius: 15px;
+            margin: 15px;
+            padding: 15px;
+            text-align: center;
+            width: calc(30% - 30px);
+            box-shadow: 7px 5px 5px rgb(126, 126, 126);
+        }
+
+        .pet-card img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 15px;
+        }
+
+        .pet-card .name {
+            font-weight: bold;
+
+        }
+
+        .gallery {
+            display: flex;
+            justify-content: space-between;
+            padding: 5px;
+            margin: 5px;
+        }
+    </style>
 </head>
+
 <body>
     <header> Nossos Serviços</header>
-    <div>
-        <h2>Serviço 1</h2>
-        <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem corporis eum, beatae cum at deserunt voluptatem vel recusandae ipsa, magnam numquam aliquam repellat quisquam ut culpa officia eveniet quis facere. <p>
+    <div class="gallery">
+        <div class="serv-card">
+            <h2>Serviço 1</h2>
+            <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem corporis eum, beatae cum at deserunt
+                voluptatem vel recusandae ipsa, magnam numquam aliquam repellat quisquam ut culpa officia eveniet quis
+                facere.
+            <p>
+        </div>
+        <div class="serv-card">
+            <h2>Serviço 2</h2>
+            <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem corporis eum, beatae cum at deserunt
+                voluptatem vel recusandae ipsa, magnam numquam aliquam repellat quisquam ut culpa officia eveniet quis
+                facere.
+            <p>
+        </div>
+        <div class="serv-card">
+            <h2>Serviço 3</h2>
+            <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem corporis eum, beatae cum at deserunt
+                voluptatem vel recusandae ipsa, magnam numquam aliquam repellat quisquam ut culpa officia eveniet quis
+                facere.
+            <p>
+        </div>
     </div>
-    <div>
-        <h2>Serviço 2</h2>
-        <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem corporis eum, beatae cum at deserunt voluptatem vel recusandae ipsa, magnam numquam aliquam repellat quisquam ut culpa officia eveniet quis facere. <p>
-    </div>
-    <div>
-        <h2>Serviço 3</h2>
-        <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem corporis eum, beatae cum at deserunt voluptatem vel recusandae ipsa, magnam numquam aliquam repellat quisquam ut culpa officia eveniet quis facere. <p>
-    </div>
-    <div>
-        <h2>Serviço 4</h2>
-        <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem corporis eum, beatae cum at deserunt voluptatem vel recusandae ipsa, magnam numquam aliquam repellat quisquam ut culpa officia eveniet quis facere. <p>
-    </div>
-    <div>
-        <h2>Serviço 5</h2>
-        <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem corporis eum, beatae cum at deserunt voluptatem vel recusandae ipsa, magnam numquam aliquam repellat quisquam ut culpa officia eveniet quis facere. <p>
-    </div>
-    <div>
-        <h2>Serviço 6</h2>
-        <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem corporis eum, beatae cum at deserunt voluptatem vel recusandae ipsa, magnam numquam aliquam repellat quisquam ut culpa officia eveniet quis facere. <p>
-    </div>
+    <div class="gallery">
+        <div class="serv-card">
+            <h2>Serviço 4</h2>
+            <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem corporis eum, beatae cum at deserunt
+                voluptatem vel recusandae ipsa, magnam numquam aliquam repellat quisquam ut culpa officia eveniet quis
+                facere.
+            <p>
+        </div>
+        <div class="serv-card">
+            <h2>Serviço 5</h2>
+            <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem corporis eum, beatae cum at deserunt
+                voluptatem vel recusandae ipsa, magnam numquam aliquam repellat quisquam ut culpa officia eveniet quis
+                facere.
+            <p>
+        </div>
+        <div class="serv-card">
+            <h2>Serviço 6</h2>
+            <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem corporis eum, beatae cum at deserunt
+                voluptatem vel recusandae ipsa, magnam numquam aliquam repellat quisquam ut culpa officia eveniet quis
+                facere.
+            <p>
+        </div>
+    </div>  
+        <div class="gallery">
+            <div class="serv-card">
+                <h2>Serviço 7</h2>
+                <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem corporis eum, beatae cum at deserunt
+                    voluptatem vel recusandae ipsa, magnam numquam aliquam repellat quisquam ut culpa officia eveniet
+                    quis
+                    facere.
+                <p>
+            </div>
+            <div class="serv-card">
+                <h2>Serviço 8</h2>
+                <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem corporis eum, beatae cum at deserunt
+                    voluptatem vel recusandae ipsa, magnam numquam aliquam repellat quisquam ut culpa officia eveniet
+                    quis
+                    facere.
+                <p>
+            </div>
+            <div class="serv-card">
+                <h2>Serviço 9</h2>
+                <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem corporis eum, beatae cum at deserunt
+                    voluptatem vel recusandae ipsa, magnam numquam aliquam repellat quisquam ut culpa officia eveniet
+                    quis
+                    facere.
+                <p>
+            </div>
+        </div>
+        <div class="gallery">
+            <div class="serv-card">
+                <h2>Serviço 10</h2>
+                <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem corporis eum, beatae cum at deserunt
+                    voluptatem vel recusandae ipsa, magnam numquam aliquam repellat quisquam ut culpa officia eveniet
+                    quis
+                    facere.
+                <p>
+            </div>
+            <div class="serv-card">
+                <h2>Serviço 11</h2>
+                <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem corporis eum, beatae cum at deserunt
+                    voluptatem vel recusandae ipsa, magnam numquam aliquam repellat quisquam ut culpa officia eveniet
+                    quis
+                    facere.
+                <p>
+            </div>
+            <div class="serv-card">
+                <h2>Serviço 12</h2>
+                <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem corporis eum, beatae cum at deserunt
+                    voluptatem vel recusandae ipsa, magnam numquam aliquam repellat quisquam ut culpa officia eveniet
+                    quis
+                    facere.
+                <p>
+            </div>
+        </div>
+        <div class="gallery">
+            <div class="serv-card">
+                <h2>Serviço 13</h2>
+                <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem corporis eum, beatae cum at deserunt
+                    voluptatem vel recusandae ipsa, magnam numquam aliquam repellat quisquam ut culpa officia eveniet
+                    quis
+                    facere.
+                <p>
+            </div>
+            <div class="serv-card">
+                <h2>Serviço 14</h2>
+                <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem corporis eum, beatae cum at deserunt
+                    voluptatem vel recusandae ipsa, magnam numquam aliquam repellat quisquam ut culpa officia eveniet
+                    quis
+                    facere.
+                <p>
+            </div>
+            <div class="serv-card">
+                <h2>Serviço 15</h2>
+                <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem corporis eum, beatae cum at deserunt
+                    voluptatem vel recusandae ipsa, magnam numquam aliquam repellat quisquam ut culpa officia eveniet
+                    quis
+                    facere.
+                <p>
+            </div>
+        </div>
 
-    
 </body>
+
 </html>
